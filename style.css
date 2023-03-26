@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    height: 6vh;
+    border: 2px solid white;
+    padding-left: 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 white;
+    background-color: rgb(92, 87, 87);
+}
+
+.nav-left{
+    flex-basis: 50%;
+}
+
+.nav-right{
+    
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vw;
+    align-items: center;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color:white;
+    padding: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.search input{
+    padding: 4px;
+    margin-left: 15px;
+    border-radius: 13px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    
+}
+
+
+
+
+
+
+
+/* ------------------------------ MID  -------------------------- */
+
+
+.book-list{
+    padding: 5px;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.book-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.book{
+    
+}
+
+.book1{
+    background-image: url(book1.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book2{
+    background-image: url(book2.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book3{
+    background-image: url(book3.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book4{
+    background-image: url(book4.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book5{
+    background-image: url(book5.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book6{
+    background-image: url(book6.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book7{
+    background-image: url(book7.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book8{
+    background-image: url(book8.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.book9{
+    background-image: url(book9.jpeg);
+    background-size: cover;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 10px;
+    height: 550px;
+    width: 360px;
+    margin: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0 12px 20px 4px grey;
+}
+
+.review button{
+    padding: 13px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px rgb(65, 65, 65);
+    
+}
+
+.review button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 3px 3px 0px rgb(149, 149, 149);
+}
